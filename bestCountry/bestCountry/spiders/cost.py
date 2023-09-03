@@ -1,4 +1,5 @@
 import scrapy
+import pandas as pd
 
 class qualityLife(scrapy.Spider):
     name = 'cost'
@@ -6,25 +7,18 @@ class qualityLife(scrapy.Spider):
         'https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2023-mid'   
     ]
     
-    
-    # Extract data
+    # response.xpath('//*[@id="t2"]/thead/tr/th//div/text()').getall()
+    # data = response.xpath('//*[@id="t2"]/tbody/tr/td/text()').getall()
     def parse(self, response):
+        header = response.xpath('//*[@id="t2"]/thead/tr/th//div/text()').getall()
+        df = pd.DataFrame(columns = header)        
+        rows = response.xpath('//*[@id="t2"]/tbody/tr')
         
-        table_data = {}
+        for row in rows:
+            # Obtén los datos de cada fila como una lista
+            row_data = row.xpath('./td/text()').getall()
+            # Agrega la lista de datos al DataFrame como una nueva fila
+            df.loc[len(df)] = row_data
 
-        # Determine the number of columns dynamically
-        num_columns = len(response.xpath('//*[@id="t2"]/thead/tr/th').extract())
-
-        for i in range(num_columns):
-            header = response.xpath(f'//*[@id="t2"]/thead/tr/th[{i + 1}]//div/text()').get()
-            column_data = []
-            j = 0
-            while True:
-                j += 1
-                rows = response.xpath(f'//*[@id="t2"]/tbody/tr[{j}]/td[{i+1}]/text()').getall()
-                if not rows:
-                    break
-                column_data.append(rows)
-            table_data[header] = column_data
-
-        print(table_data)
+        # Ahora df contiene la tabla completa
+        df.to_csv('cost.csv', index = False)
