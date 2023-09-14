@@ -3,9 +3,9 @@ import pandas as pd
 import scrapy
 
 class qualityLife(scrapy.Spider):
-    name = 'cost'
+    name = 'traffic'
     start_urls = [
-        'https://www.numbeo.com/cost-of-living/rankings_by_country.jsp'
+        'https://www.numbeo.com/traffic/rankings_by_country.jsp'
     ]
 
     def parse(self, response):
@@ -13,7 +13,7 @@ class qualityLife(scrapy.Spider):
         years = response.xpath("//form[@class='changePageForm']/select[@name='title']/option/@value").getall()
         for year_value in years:
             # Construye la URL completa
-            url = f"https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title={year_value}"
+            url = f"https://www.numbeo.com/traffic/rankings_by_country.jsp?title={year_value}"
 
             # Utiliza response.follow para seguir la URL y pasa year_value como argumento
             yield response.follow(url, callback=self.parse_table, cb_kwargs={'year_value': year_value})
@@ -29,7 +29,7 @@ class qualityLife(scrapy.Spider):
             df.loc[len(df)] = row_data
 
         # Guarda el DataFrame en un archivo CSV con el nombre del enlace
-        data_folder = 'cost'
+        data_folder = 'traffic'
 
         if not os.path.exists(data_folder):
             os.makedirs(data_folder)
