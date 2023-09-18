@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Kenya,270.4,56.1,11483.4,281.0,8171.7
 Sri Lanka,265.1,55.5,10923.5,327.0,7568.8
 Bangladesh,256.2,57.1,12481.8,326.4,4801.1

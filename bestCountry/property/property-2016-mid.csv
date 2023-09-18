@@ -1,4 +1,4 @@
-Rank,Price To Income Ratio,Gross Rental Yield City Centre,Gross Rental Yield Outside of Centre,Price To Rent Ratio City Centre,Price To Rent Ratio Outside Of City Centre,Mortgage As A Percentage Of Income,Affordability Index
+Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Hong Kong,35.0,2.2,2.2,45.2,45.3,218.3,0.5
 Syria,33.6,4.2,5.6,23.5,17.8,328.9,0.3
 Vietnam,28.9,5.0,7.0,20.0,14.2,317.5,0.3

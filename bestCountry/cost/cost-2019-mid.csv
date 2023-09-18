@@ -1,4 +1,4 @@
-Rank,Cost of Living Index,Rent Index,Cost of Living Plus Rent Index,Groceries Index,Restaurant Price Index,Local Purchasing Power Index
+Country,Cost_of_Living,Rent,Cost_Plus_Rent,Groceries,Restaurant_Price,Local_Purchasing_Power
 Cayman Islands,141.6,74.4,109.5,157.9,105.0,137.9
 Bermuda,138.2,87.6,114.0,124.9,150.4,79.9
 Switzerland,122.7,50.2,88.0,121.3,124.0,127.8

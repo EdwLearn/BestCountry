@@ -30,7 +30,15 @@ class qualityLife(scrapy.Spider):
                 row_data = row.xpath('./td/text()').getall()
                 df.loc[len(df)] = row_data
                 
-            df = df.rename(columns= {'Rank': 'Country', ' Emission Index': 'CO Emis'})
+            df.columns = df.columns.str.replace(' Index', '') #Delete word index of all variables
+            df.rename(
+                columns = {
+                    'Rank': 'Country',
+                    ' Emission Index': 'CO Emiss'
+                    },
+                inplace=True
+                )
+            df.columns = df.columns.str.replace(' ', '_')
 
             # Guarda el DataFrame en un archivo CSV con el nombre del enlace
             data_folder = 'traffic'

@@ -1,4 +1,4 @@
-Rank,Quality of Life Index,Purchasing Power Index,Safety Index,Health Care Index,Cost of Living Index,Property Price to Income Ratio,Traffic Commute Time Index,Pollution Index,Climate Index
+Country,Quality_Life,Purchasing_Power,Safety,Health_Care,Cost_Living,Property_Price_Income,Traffic_Time,Pollution,Climate
 Denmark,192.5,101.3,73.9,80.2,85.0,7.0,28.9,21.5,81.8
 Switzerland,190.9,114.8,78.4,73.1,125.7,8.5,28.9,21.9,80.0
 Finland,186.4,93.9,74.5,76.0,72.7,8.7,29.4,11.8,59.2

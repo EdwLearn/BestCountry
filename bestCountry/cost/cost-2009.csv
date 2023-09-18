@@ -1,4 +1,4 @@
-Rank,Cost of Living Index,Rent Index,Cost of Living Plus Rent Index,Groceries Index,Restaurant Price Index,Local Purchasing Power Index
+Country,Cost_of_Living,Rent,Cost_Plus_Rent,Groceries,Restaurant_Price,Local_Purchasing_Power
 Ireland,126.1,85.9,110.1,154.5,131.6,59.8
 Netherlands,123.8,71.9,103.2,90.1,108.5,41.6
 France,120.9,77.7,103.8,115.4,118.3,45.5

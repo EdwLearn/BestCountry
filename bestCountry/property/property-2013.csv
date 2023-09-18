@@ -1,4 +1,4 @@
-Rank,Price To Income Ratio,Gross Rental Yield City Centre,Gross Rental Yield Outside of Centre,Price To Rent Ratio City Centre,Price To Rent Ratio Outside Of City Centre,Mortgage As A Percentage Of Income,Affordability Index
+Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Georgia,40.6,2.4,2.0,42.5,49.9,571.3,0.2
 Cambodia,35.9,2.7,3.0,37.1,33.9,445.1,0.2
 Singapore,25.4,3.6,4.0,27.7,25.0,162.9,0.6

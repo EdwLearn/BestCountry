@@ -27,6 +27,21 @@ class qualityLife(scrapy.Spider):
         for row in rows:
             row_data = row.xpath('./td/text()').getall()
             df.loc[len(df)] = row_data
+            
+        df.columns = df.columns.str.replace(' Index', '')
+            
+        df.rename(
+            columns = {
+                'Rank': 'Country',
+                'Quality of Life': 'Quality Life', 
+                'Cost of Living': 'Cost Living',
+                'Property Price to Income Ratio': 'Property Price Income', 
+                'Traffic Commute Time': 'Traffic Time'
+                },
+            inplace=True
+            )
+        
+        df.columns = df.columns.str.replace(' ', '_')
 
         # Guarda el DataFrame en un archivo CSV con el nombre del enlace
         data_folder = 'quality'

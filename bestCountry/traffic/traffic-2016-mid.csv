@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Egypt,247.1,51.0,7084.0,287.0,9024.0
 Iran,226.6,49.2,5806.9,226.9,7420.3
 Jordan,220.7,47.2,4628.1,258.0,7993.1

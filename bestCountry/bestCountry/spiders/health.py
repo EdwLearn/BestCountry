@@ -23,12 +23,25 @@ class qualityLife(scrapy.Spider):
                 # Extrae la tabla de datos de la página vinculada
             header = response.xpath('//*[@id="t2"]/thead/tr/th//div/text()').getall()
             df = pd.DataFrame(columns=header)
+            
             df = df.drop('Exp. Index', axis = 1)
+            
             rows = response.xpath('//*[@id="t2"]/tbody/tr')
 
             for row in rows:
                 row_data = row.xpath('./td/text()').getall()
                 df.loc[len(df)] = row_data
+                
+            df.rename(
+                columns = {
+                    'Rank': 'Country',
+                    'Health Care': 'Health Exp.'
+                    },
+                inplace=True
+                )
+            
+            df.columns = df.columns.str.replace(' Index', '') #Delete word index of all variables
+            df.columns = df.columns.str.replace(' ', '_')
 
             # Guarda el DataFrame en un archivo CSV con el nombre del enlace
             data_folder = 'health'

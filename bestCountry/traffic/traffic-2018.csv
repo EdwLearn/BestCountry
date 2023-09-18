@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Iran,225.8,49.5,5995.7,234.7,6993.8
 Egypt,221.4,46.7,4334.5,279.8,8487.6
 South Africa,211.7,43.3,2728.4,258.0,10021.5

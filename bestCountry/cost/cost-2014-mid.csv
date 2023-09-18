@@ -1,4 +1,4 @@
-Rank,Cost of Living Index,Rent Index,Cost of Living Plus Rent Index,Groceries Index,Restaurant Price Index,Local Purchasing Power Index
+Country,Cost_of_Living,Rent,Cost_Plus_Rent,Groceries,Restaurant_Price,Local_Purchasing_Power
 Norway,145.2,61.5,105.0,137.1,166.7,89.8
 Switzerland,142.5,64.9,105.2,147.8,139.9,137.0
 Venezuela,119.1,38.1,80.2,141.2,92.8,12.2

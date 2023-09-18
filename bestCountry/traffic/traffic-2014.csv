@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Kenya,352.2,73.3,37940.0,284.8,4513.3
 Egypt,323.0,60.8,16848.5,336.3,13012.7
 Bangladesh,309.8,60.2,16053.5,374.8,10722.0

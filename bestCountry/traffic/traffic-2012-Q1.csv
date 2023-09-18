@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Iran,328.2,73.5,38296.2,351.3,9714.0
 Singapore,274.7,66.2,24680.0,247.6,7592.5
 Bangladesh,269.8,61.7,17931.9,480.8,16403.3

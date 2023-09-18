@@ -1,4 +1,4 @@
-Rank,Cost of Living Index,Rent Index,Cost of Living Plus Rent Index,Groceries Index,Restaurant Price Index,Local Purchasing Power Index
+Country,Cost_of_Living,Rent,Cost_Plus_Rent,Groceries,Restaurant_Price,Local_Purchasing_Power
 Bermuda,145.1,92.9,120.1,141.8,157.7,83.4
 Switzerland,131.7,55.0,95.1,133.4,126.1,111.0
 Norway,106.1,36.2,72.7,100.6,105.9,79.4

@@ -1,4 +1,4 @@
-Rank,Price To Income Ratio,Gross Rental Yield City Centre,Gross Rental Yield Outside of Centre,Price To Rent Ratio City Centre,Price To Rent Ratio Outside Of City Centre,Mortgage As A Percentage Of Income,Affordability Index
+Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Morocco,67.5,5.8,5.8,17.2,17.2,13500.0,0.0
 Pakistan,40.6,0.9,2.3,113.5,44.4,752.4,0.1
 Belarus,40.0,7.5,3.2,13.3,31.4,704.1,0.1

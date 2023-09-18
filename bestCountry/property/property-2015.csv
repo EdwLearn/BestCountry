@@ -1,4 +1,4 @@
-Rank,Price To Income Ratio,Gross Rental Yield City Centre,Gross Rental Yield Outside of Centre,Price To Rent Ratio City Centre,Price To Rent Ratio Outside Of City Centre,Mortgage As A Percentage Of Income,Affordability Index
+Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Uganda,31.1,1.9,10.0,53.7,10.0,649.4,0.2
 Syria,30.5,3.9,3.1,25.3,31.8,283.7,0.4
 Hong Kong,30.1,2.7,2.8,37.5,36.1,193.0,0.5

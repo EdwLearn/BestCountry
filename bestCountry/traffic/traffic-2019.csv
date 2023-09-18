@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Egypt,236.9,49.2,5807.0,291.8,8913.5
 Sri Lanka,233.6,51.9,7753.1,281.6,5903.2
 Iran,221.5,48.4,5306.5,231.3,7241.9

@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Nigeria,315.2,63.4,20310.3,437.2,7820.2
 Costa Rica,300.1,60.2,16038.1,331.5,9028.5
 Sri Lanka,272.5,56.9,12283.8,377.1,7286.9

@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Nigeria,308.0,61.1,17169.0,521.6,8664.1
 Sri Lanka,293.4,59.0,14627.7,495.1,8308.2
 Kenya,274.7,56.7,12039.3,290.7,8332.8

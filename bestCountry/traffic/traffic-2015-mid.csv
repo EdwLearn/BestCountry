@@ -1,4 +1,4 @@
-Country,Traffic Index,Time Index,Time Exp. Index,Inefficiency Index, Emission Index
+Country,Traffic,Time,Time_Exp.,Inefficiency,_Emission
 Egypt,284.5,55.5,10870.5,296.4,11567.6
 South Africa,215.3,43.9,3007.8,228.7,10289.5
 Thailand,211.9,44.1,3087.1,245.8,9312.8

@@ -1,4 +1,4 @@
-Rank,Price To Income Ratio,Gross Rental Yield City Centre,Gross Rental Yield Outside of Centre,Price To Rent Ratio City Centre,Price To Rent Ratio Outside Of City Centre,Mortgage As A Percentage Of Income,Affordability Index
+Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 El Salvador,32.3,5.4,1.0,18.4,100.4,432.4,0.2
 Syria,30.5,3.7,4.0,26.7,25.0,332.9,0.3
 Myanmar,30.2,10.5,4.1,9.5,24.2,357.8,0.3
