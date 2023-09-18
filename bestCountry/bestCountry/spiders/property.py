@@ -35,4 +35,4 @@ class qualityLife(scrapy.Spider):
             os.makedirs(data_folder)
 
         # Guarda el DataFrame en un archivo CSV dentro de la carpeta "data" con el nombre del enlace
-        df.to_csv(os.path.join(data_folder, f'cost-{year_value}.csv'), index=False)
+        df.to_csv(os.path.join(data_folder, f'property-{year_value}.csv'), index=False)
