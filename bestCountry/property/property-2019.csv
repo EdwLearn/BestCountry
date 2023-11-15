@@ -1,4 +1,4 @@
-Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
+Country,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Hong Kong,49.4,1.8,1.9,54.5,53.8,310.6,0.3
 China,29.1,1.8,2.0,54.5,49.9,231.3,0.4
 Taiwan,28.9,2.0,2.4,50.7,42.0,174.6,0.6

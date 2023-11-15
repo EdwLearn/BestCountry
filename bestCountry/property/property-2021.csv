@@ -1,4 +1,4 @@
-Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
+Country,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Syria,63.2,2.9,3.2,34.0,31.7,709.4,0.1
 Hong Kong,45.2,1.6,1.7,61.6,57.6,288.3,0.3
 Jamaica,36.0,2.8,1.2,35.3,83.5,374.4,0.3

@@ -1,0 +1,5 @@
+1. [Create dictionary](https://www.geeksforgeeks.org/python-dictionary-comprehension/)
+2. [Join dictionary](https://es.stackoverflow.com/questions/400015/c%C3%B3mo-unir-dos-diccionarios-en-python)
+3. [Add new column from dictionary](https://stackoverflow.com/questions/29794959/pandas-add-new-column-to-dataframe-from-dictionary)
+
+4. [Remove Outliers](https://stackoverflow.com/questions/46245035/pandas-dataframe-remove-outliers)

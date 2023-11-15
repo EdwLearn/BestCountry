@@ -1,4 +1,4 @@
-Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
+Country,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Ghana,87.7,13.0,0.4,7.7,278.1,2349.5,0.0
 Syria,70.6,2.9,3.3,34.5,29.9,877.8,0.1
 Hong Kong,46.9,1.6,1.5,63.4,67.7,293.9,0.3

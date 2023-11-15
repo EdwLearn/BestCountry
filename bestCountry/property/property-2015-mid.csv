@@ -1,4 +1,4 @@
-Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
+Country,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Papua New Guinea,93.0,6.0,17.7,16.8,5.6,1140.6,0.1
 Cuba,77.6,25.6,13.7,3.9,7.3,564.4,0.2
 Hong Kong,31.5,2.4,2.6,42.1,38.4,203.3,0.5

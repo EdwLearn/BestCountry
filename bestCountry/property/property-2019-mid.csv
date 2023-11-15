@@ -1,4 +1,4 @@
-Rank,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
+Country,Price_to_Income,Gross_Rental_Ce,Gross_Rental_Out,Price_Ratio_Ce,Price_Ratio_Out,Mortgage_As_Percentage,Affordability
 Venezuela,151.5,5.7,5.9,17.4,17.1,3256.8,0.0
 Syria,63.9,2.5,3.0,40.6,33.1,670.1,0.1
 Hong Kong,49.4,1.8,1.9,55.0,53.1,314.6,0.3

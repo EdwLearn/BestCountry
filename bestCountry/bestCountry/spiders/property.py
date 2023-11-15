@@ -32,6 +32,7 @@ class qualityLife(scrapy.Spider):
             
         df.rename(
             columns = {
+                'Rank': 'Country'
                 'Price To Income Ratio': 'Price to Income',
                 'Gross Rental Yield City Centre': 'Gross Rental Ce',
                 'Gross Rental Yield Outside of Centre': 'Gross Rental Out',
