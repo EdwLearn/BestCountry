@@ -1,0 +1,33 @@
+.
+├── README.md
+├── requirements.txt
+├── sources.txt
+├── notebooks
+│   ├── Sorting.ipynb
+│   ├── Cost of Living.ipynb
+│   ├── Property Price.ipynb
+│   ├── Traffic.ipynb
+│   ├── Crime.ipynb
+│   ├── Health.ipynb
+│   └── Quality.ipynb
+├── pandas-missing-extension.ipynb
+├── data
+│   ├── cost
+│   │   ├── cost-2009.csv
+│   │   ├── cost-2010.csv
+│   │   ├── cost-2011.csv
+│   │   └── cost-2012.csv
+│   ├── crime
+│   ├── health
+│   ├── property
+│   ├── quality
+│   └── traffic
+├── combined
+│   └── cost_complete.csv
+└── bestCountry
+    ├── __init__.py
+    ├── items.py
+    ├── middlewares.py
+    ├── pipelines.py
+    ├── settings.py
+    └── spiders
