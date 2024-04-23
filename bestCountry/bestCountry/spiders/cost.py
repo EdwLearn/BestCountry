@@ -40,7 +40,7 @@ class qualityLife(scrapy.Spider):
 
 
         # Guarda el DataFrame en un archivo CSV con el nombre del enlace
-        data_folder = 'cost'
+        data_folder = '../../../data/cost'
 
         if not os.path.exists(data_folder):
             os.makedirs(data_folder)

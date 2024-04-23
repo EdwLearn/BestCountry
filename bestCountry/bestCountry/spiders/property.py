@@ -47,7 +47,7 @@ class qualityLife(scrapy.Spider):
         df.columns = df.columns.str.replace(' ', '_')
 
         # Guarda el DataFrame en un archivo CSV con el nombre del enlace
-        data_folder = 'property'
+        data_folder = '../../../data/property'
 
         if not os.path.exists(data_folder):
             os.makedirs(data_folder)
